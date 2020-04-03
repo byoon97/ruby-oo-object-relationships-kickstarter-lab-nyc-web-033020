@@ -21,7 +21,5 @@ class Backer
     end
 
     pbs.map { |pb| pb.project }
-
-    end
   end
 end
