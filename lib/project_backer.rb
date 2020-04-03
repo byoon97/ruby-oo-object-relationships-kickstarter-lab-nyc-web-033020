@@ -13,5 +13,3 @@ class ProjectBacker
     @@all
   end
 end
-
-
