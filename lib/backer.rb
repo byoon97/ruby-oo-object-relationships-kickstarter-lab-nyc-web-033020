@@ -17,7 +17,7 @@ class Backer
 
   def backed_projects
     ProjectBacker.all.select do |key|
-      key.map do self.project
+      key.collect do self.project
       end
     end
   end
