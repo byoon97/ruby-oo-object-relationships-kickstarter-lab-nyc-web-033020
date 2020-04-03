@@ -5,11 +5,11 @@ class Backer
     @name = name
   end
 
-  def projects 
+  def projects
     Project.all.select do |project|
       project.backer == self
     end
   end
-  
-    
+
+
 end
