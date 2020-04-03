@@ -17,7 +17,7 @@ class Backer
 
   def backed_projects
     project_arr = []
-    Project.all.select.do |project|
+    ProjectBacker.all.select.do |project|
     if project.backer == self
       project_arr << project
     end
