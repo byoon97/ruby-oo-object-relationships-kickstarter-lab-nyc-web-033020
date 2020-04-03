@@ -22,5 +22,5 @@ class Backer
       project_arr << project
     end
   end
-end
+
 end
