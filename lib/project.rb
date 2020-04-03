@@ -10,4 +10,8 @@ class Project
       backer.project == self
     end
   end
+
+  def add_backer(project, backer)
+    ProjectBacker.new(self, backer)
+  end
 end
