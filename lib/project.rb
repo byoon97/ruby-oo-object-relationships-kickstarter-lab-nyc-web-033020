@@ -11,7 +11,7 @@ class Project
     end
   end
 
-  def add_backer(project, backer)
+  def add_backer(backer)
     ProjectBacker.new(self, backer)
   end
 end
