@@ -20,7 +20,7 @@ class Backer
       project.backer == self
     end
 
-    pbs.map do  { |pb| pb.project }
+    pbs.map { |pb| pb.project }
 
     end
   end
