@@ -14,4 +14,4 @@ class ProjectBacker
   end
 end
 
-print @@all
+
