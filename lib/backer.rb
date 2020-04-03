@@ -16,9 +16,11 @@ class Backer
   end
 
   def backed_projects
-    ProjectBacker.all.select do |key|
-      key.collect do backed.project
-      end
+    project_arr = []
+    Project.all.select.do |project|
+    if project.backer == self
+      project_arr << project
     end
   end
+end
 end
