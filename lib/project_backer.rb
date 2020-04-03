@@ -13,3 +13,5 @@ class ProjectBacker
     @@all
   end
 end
+
+pp @@all
