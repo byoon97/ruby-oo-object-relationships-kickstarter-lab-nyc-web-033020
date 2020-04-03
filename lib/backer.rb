@@ -18,8 +18,6 @@ class Backer
   def backed_projects
     pbs = ProjectBacker.all.select do |project|
       project.backer == self
-    end
-
-    pbs.map { |pb| pb.project }
+    end.map { |pb| pb.project }
   end
 end
