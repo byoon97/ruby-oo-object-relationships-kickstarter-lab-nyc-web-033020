@@ -19,7 +19,7 @@ class Backer
     project_arr = []
     ProjectBacker.all.select do |project|
       if project.backer == self
-        project_arr << project.title
+        project_arr << Project.titles
       end
     end
   end
